@@ -32,6 +32,10 @@ nav {
         text-decoration: none;
         color: $color-grayish-blue;
         font-family: 'Public Sans', sans-serif;
+
+        &:hover {
+          color: $color-dark-blue;
+        }
       }
     }
   }

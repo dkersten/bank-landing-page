@@ -1,0 +1,65 @@
+@import '../variables.scss';
+
+footer {
+  background: $color-dark-blue;
+  padding: 3rem 0;
+
+  .inner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    * {
+      font-family: 'Public Sans', sans-serif;
+      color: $color-light-grayish-blue;
+      font-size: 0.9rem;
+    }
+  }
+
+  .logo-sm-container {
+    flex-basis: 25%;
+
+    .sm-container {
+      margin-top: 1.5rem;
+    }
+
+    a {
+      display: inline-block;
+      margin-right: 0.5rem;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .nav-container {
+    flex-basis: 50%;
+    ul {
+      column-count: 2;
+
+      li {
+        line-height: 2;
+      }
+    }
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        color: $color-bright-cyan;
+      }
+    }
+  }
+
+  .cta-container {
+    flex-basis: 25%;
+    button {
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-weight: 300;
+    }
+  }
+}

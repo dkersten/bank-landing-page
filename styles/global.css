@@ -213,6 +213,10 @@ nav .inner-container .menu-container ul a {
   font-family: 'Public Sans', sans-serif;
 }
 
+nav .inner-container .menu-container ul a:hover {
+  color: #2d314d;
+}
+
 section.hero {
   min-height: 650px;
   background: #fafafa;
@@ -385,5 +389,81 @@ section.articles a .text-container h4 {
 
 section.articles a .text-container p {
   font-size: 0.9rem;
+}
+
+footer {
+  background: #2d314d;
+  padding: 3rem 0;
+}
+
+footer .inner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .inner-container * {
+  font-family: 'Public Sans', sans-serif;
+  color: #f3f4f6;
+  font-size: 0.9rem;
+}
+
+footer .logo-sm-container {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+footer .logo-sm-container .sm-container {
+  margin-top: 1.5rem;
+}
+
+footer .logo-sm-container a {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+footer .logo-sm-container a:last-of-type {
+  margin-right: 0;
+}
+
+footer .nav-container {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+footer .nav-container ul {
+  -webkit-column-count: 2;
+          column-count: 2;
+}
+
+footer .nav-container ul li {
+  line-height: 2;
+}
+
+footer .nav-container a {
+  text-decoration: none;
+}
+
+footer .nav-container a:hover {
+  color: #2bb7da;
+}
+
+footer .cta-container {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+footer .cta-container button {
+  margin-bottom: 1.5rem;
+}
+
+footer .cta-container p {
+  font-weight: 300;
 }
 /*# sourceMappingURL=global.css.map */

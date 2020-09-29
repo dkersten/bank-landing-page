@@ -41,4 +41,8 @@ nav .inner-container .menu-container ul a {
   color: #9698a6;
   font-family: 'Public Sans', sans-serif;
 }
+
+nav .inner-container .menu-container ul a:hover {
+  color: #2d314d;
+}
 /*# sourceMappingURL=nav.css.map */
