@@ -1,0 +1,64 @@
+section.articles {
+  padding: 3.5rem 0;
+  background: #fafafa;
+}
+
+section.articles * {
+  font-family: 'Public Sans', sans-serif;
+}
+
+section.articles h2 {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #2d314d;
+  margin-bottom: 2rem;
+}
+
+section.articles .article-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.articles a {
+  text-decoration: none;
+  -ms-flex-preferred-size: calc(25% - 0.75rem);
+      flex-basis: calc(25% - 0.75rem);
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+section.articles a * {
+  color: #9698a6;
+}
+
+section.articles a img {
+  max-width: 100%;
+}
+
+section.articles a .text-container {
+  margin: 1rem;
+}
+
+section.articles a .text-container address {
+  font-size: 0.85rem;
+}
+
+section.articles a .text-container h4 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-weight: 300;
+  color: #2d314d;
+  line-height: 1.5;
+}
+
+section.articles a .text-container p {
+  font-size: 0.9rem;
+}
+/*# sourceMappingURL=articles.css.map */

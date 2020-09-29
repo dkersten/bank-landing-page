@@ -18,6 +18,12 @@ nav {
       flex-basis: calc((1 / 3) * 100);
     }
 
+    .logo-container {
+      svg {
+        padding-top: 0.225rem;
+      }
+    }
+
     .menu-container ul {
       display: flex;
 

@@ -158,8 +158,18 @@ button {
   border-radius: 20px;
   border: none;
   background: linear-gradient(to right, $color-lime-green, $color-bright-cyan);
+
+  &:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      to right,
+      $color-bright-cyan,
+      $color-lime-green
+    );
+  }
 }
 
 @import './components/nav.scss';
 @import './components/hero.scss';
 @import './components/features.scss';
+@import './components/articles.scss';
