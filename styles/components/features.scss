@@ -1,0 +1,50 @@
+@import '../variables.scss';
+
+section.features {
+  z-index: 5;
+  background: $color-light-grayish-blue;
+  padding-top: 4rem;
+  padding-bottom: 3.5rem;
+
+  * {
+    font-family: 'Public Sans', sans-serif;
+  }
+
+  .text-container {
+    max-width: 700px;
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    color: $color-dark-blue;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    color: $color-grayish-blue;
+  }
+
+  .features-container {
+    margin-top: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .feature {
+      flex-basis: calc(25% - 0.5rem);
+
+      h3 {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        color: $color-dark-blue;
+        font-weight: 300;
+        font-size: 1.075rem;
+      }
+    }
+
+    .feature:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

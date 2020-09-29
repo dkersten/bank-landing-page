@@ -1,11 +1,13 @@
 section.hero {
-  min-height: 600px;
+  min-height: 650px;
   background: #fafafa;
+  position: relative;
+  z-index: 1;
 }
 
 section.hero .text-container {
   max-width: 450px;
-  height: 600px;
+  height: 650px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,10 +32,25 @@ section.hero .text-container p {
   margin: 1.5rem 0;
   font-family: 'Public Sans', sans-serif;
   color: #9698a6;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 section.hero .text-container button {
   max-width: 150px;
+}
+
+section.hero svg.blobs {
+  position: absolute;
+  bottom: -80px;
+  right: -400px;
+  z-index: 1;
+}
+
+section.hero img.phones {
+  position: absolute;
+  right: -100px;
+  top: 0;
+  z-index: 4;
+  max-height: 775px;
 }
 /*# sourceMappingURL=hero.css.map */

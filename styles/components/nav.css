@@ -2,6 +2,10 @@ nav {
   background-color: #fff;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  z-index: 5 !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav .inner-container {

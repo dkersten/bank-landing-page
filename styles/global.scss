@@ -140,6 +140,10 @@ html {
   font-family: 'Public Sans', sans-serif;
 }
 
+p {
+  line-height: 1.6;
+}
+
 .inner-container {
   max-width: 1200px;
   margin-left: auto;
@@ -158,3 +162,4 @@ button {
 
 @import './components/nav.scss';
 @import './components/hero.scss';
+@import './components/features.scss';
