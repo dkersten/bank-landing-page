@@ -1,0 +1,33 @@
+@import '../variables.scss';
+
+section.hero {
+  min-height: 600px;
+  background: $color-very-light-gray;
+
+  .text-container {
+    max-width: 450px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+      font-size: 2.6rem;
+      font-family: 'Public Sans', sans-serif;
+      line-height: 1.25;
+      font-weight: 300;
+      color: $color-dark-blue;
+    }
+
+    p {
+      margin: 1.5rem 0;
+      font-family: 'Public Sans', sans-serif;
+      color: $color-grayish-blue;
+      line-height: 1.3;
+    }
+
+    button {
+      max-width: 150px;
+    }
+  }
+}

@@ -24,20 +24,5 @@ nav {
         font-family: 'Public Sans', sans-serif;
       }
     }
-
-    .cta-container {
-      button {
-        color: $color-white;
-        font-size: 1.05rem;
-        padding: 0.5rem 1.5rem;
-        border-radius: 20px;
-        border: none;
-        background: linear-gradient(
-          to right,
-          $color-lime-green,
-          $color-bright-cyan
-        );
-      }
-    }
   }
 }

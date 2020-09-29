@@ -33,14 +33,4 @@ nav .inner-container .menu-container ul a {
   color: #9698a6;
   font-family: 'Public Sans', sans-serif;
 }
-
-nav .inner-container .cta-container button {
-  color: #fff;
-  font-size: 1.05rem;
-  padding: 0.5rem 1.5rem;
-  border-radius: 20px;
-  border: none;
-  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
-  background: linear-gradient(to right, #31d35c, #2bb7da);
-}
 /*# sourceMappingURL=nav.css.map */

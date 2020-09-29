@@ -1,0 +1,39 @@
+section.hero {
+  min-height: 600px;
+  background: #fafafa;
+}
+
+section.hero .text-container {
+  max-width: 450px;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.hero .text-container h1 {
+  font-size: 2.6rem;
+  font-family: 'Public Sans', sans-serif;
+  line-height: 1.25;
+  font-weight: 300;
+  color: #2d314d;
+}
+
+section.hero .text-container p {
+  margin: 1.5rem 0;
+  font-family: 'Public Sans', sans-serif;
+  color: #9698a6;
+  line-height: 1.3;
+}
+
+section.hero .text-container button {
+  max-width: 150px;
+}
+/*# sourceMappingURL=hero.css.map */
