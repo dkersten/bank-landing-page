@@ -264,6 +264,13 @@ nav .inner-container .menu-container ul a:hover {
   }
 }
 
+@media all and (max-width: 570px) {
+  body:before {
+    content: 'mobile';
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 570px) {
   nav .inner-container .logo-container {
     padding: 1rem 0;
@@ -274,6 +281,53 @@ nav .inner-container .menu-container ul a:hover {
   nav .inner-container .mobile-menu-icon:hover {
     cursor: pointer;
   }
+  nav .inner-container .mobile-menu-icon-close:hover {
+    cursor: pointer;
+  }
+}
+
+.mobile-menu .inner-container {
+  background: #fff;
+  -webkit-box-shadow: 0 0 100vw rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0 100vw rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  position: fixed;
+  top: 4.75rem;
+  z-index: 10;
+  width: calc(100% - 4rem);
+}
+
+.mobile-menu .inner-container a {
+  text-decoration: none;
+}
+
+.mobile-menu .inner-container li {
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0.75rem 0;
+  color: #2d314d;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.mobile-menu.closed {
+  display: none;
+}
+
+.mobile-menu.opened {
+  display: block;
+}
+
+nav .hide {
+  display: none;
+}
+
+nav .show {
+  display: block;
 }
 
 section.hero {
