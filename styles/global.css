@@ -427,6 +427,36 @@ section.articles article .text-container p {
   font-size: 0.9rem;
 }
 
+@media only screen and (max-width: 1099px) and (min-width: 660px) {
+  section.articles article {
+    -ms-flex-preferred-size: calc(50% - 0.75rem);
+        flex-basis: calc(50% - 0.75rem);
+  }
+  section.articles article:nth-child(1), section.articles article:nth-child(2) {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 659px) {
+  section.articles h2 {
+    text-align: center;
+  }
+  section.articles .article-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section.articles article {
+    -ms-flex-preferred-size: calc(100%);
+        flex-basis: calc(100%);
+    max-width: 450px;
+    margin-bottom: 2.5rem;
+  }
+  section.articles article:nth-child(4) {
+    margin-bottom: 0;
+  }
+}
+
 footer {
   background: #2d314d;
   padding: 3rem 0;
