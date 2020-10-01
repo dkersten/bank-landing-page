@@ -119,8 +119,6 @@ section.hero {
 
 @media only screen and (max-width: 768px) {
   section.hero {
-    background: red;
-
     .inner-container {
       display: flex;
       flex-direction: column-reverse;
@@ -139,9 +137,6 @@ section.hero {
 
     .img-container .blobs {
       width: 100vw;
-      margin-top: -20rem;
-      // height: auto;
-      display: none;
     }
 
     svg.blobs {
@@ -153,7 +148,7 @@ section.hero {
       position: relative;
       max-height: none;
       max-width: 100%;
-      margin-top: -20rem;
+      margin-top: -50rem;
       right: 0;
       top: 0;
     }
@@ -163,7 +158,7 @@ section.hero {
 @media only screen and (max-width: 700px) {
   section.hero {
     img.phones {
-      margin-top: -16rem;
+      margin-top: -47rem;
     }
   }
 }
@@ -171,7 +166,7 @@ section.hero {
 @media only screen and (max-width: 650px) {
   section.hero {
     img.phones {
-      margin-top: -13rem;
+      margin-top: -44rem;
     }
   }
 }
@@ -179,7 +174,7 @@ section.hero {
 @media only screen and (max-width: 600px) {
   section.hero {
     img.phones {
-      margin-top: -11rem;
+      margin-top: -41rem;
     }
   }
 }
@@ -187,7 +182,7 @@ section.hero {
 @media only screen and (max-width: 450px) {
   section.hero {
     img.phones {
-      margin-top: -2rem;
+      margin-top: -32rem;
     }
   }
 }
