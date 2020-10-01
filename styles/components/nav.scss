@@ -91,8 +91,31 @@ nav {
 }
 
 @media only screen and (min-width: 571px) {
+  nav {
+    .inner-container {
+      .menu-container,
+      .cta-container {
+        margin-left: auto;
+      }
+    }
+  }
+
   .mobile-menu-icon {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 571px) and (max-width: 750px) {
+  nav {
+    .inner-container {
+      .menu-container {
+        // margin-left: auto;
+
+        li:last-child a {
+          padding-right: 0;
+        }
+      }
+    }
   }
 }
 

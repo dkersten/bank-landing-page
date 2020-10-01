@@ -88,8 +88,18 @@ nav .inner-container .menu-container ul a:hover {
 }
 
 @media only screen and (min-width: 571px) {
+  nav .inner-container .menu-container,
+  nav .inner-container .cta-container {
+    margin-left: auto;
+  }
   .mobile-menu-icon {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 571px) and (max-width: 750px) {
+  nav .inner-container .menu-container li:last-child a {
+    padding-right: 0;
   }
 }
 

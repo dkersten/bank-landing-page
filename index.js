@@ -41,6 +41,7 @@ mobileMenu.addEventListener ('click', e => {
   }
 });
 
+// show/hide mobile menu features based on width change
 function myFunction (width) {
   if (width.matches) {
     // If media query matches
@@ -64,7 +65,7 @@ function myFunction (width) {
 }
 
 var width = window.matchMedia ('(max-width: 570px)');
-myFunction (width); // Call listener function at run time
+myFunction (width);
 width.addEventListener ('change', () => {
   this.myFunction (width);
 });
