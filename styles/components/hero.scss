@@ -1,14 +1,12 @@
 @import '../variables.scss';
 
 section.hero {
-  min-height: 650px;
   background: $color-very-light-gray;
   position: relative;
   z-index: 1;
 
   .text-container {
     max-width: 450px;
-    height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,5 +44,150 @@ section.hero {
     top: 0;
     z-index: 4;
     max-height: 775px;
+  }
+}
+
+// media queries for mobile responsiveness
+
+@media only screen and (max-width: 1215px) {
+  section.hero {
+    svg.blobs {
+      right: -500px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1115px) {
+  section.hero {
+    svg.blobs {
+      right: -600px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1015px) {
+  section.hero {
+    svg.blobs {
+      right: -700px;
+    }
+
+    img.phones {
+      right: -200px;
+    }
+  }
+}
+
+@media only screen and (max-width: 915px) {
+  section.hero {
+    svg.blobs {
+      right: -800px;
+    }
+
+    img.phones {
+      right: -300px;
+    }
+  }
+}
+
+@media only screen and (max-width: 865px) {
+  section.hero {
+    svg.blobs {
+      right: -850px;
+    }
+
+    img.phones {
+      right: -200px;
+      max-height: 600px;
+      top: 175px;
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  section.hero {
+    min-height: 650px;
+
+    .text-container {
+      height: 650px;
+    }
+
+    .img-container .blobs {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  section.hero {
+    background: red;
+
+    .inner-container {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+
+    .text-container {
+      // padding-top: 22rem;
+      padding-bottom: 4rem;
+      align-items: center;
+
+      * {
+        text-align: center;
+      }
+    }
+
+    .img-container .blobs {
+      width: 100vw;
+      margin-top: -20rem;
+      // height: auto;
+      display: none;
+    }
+
+    svg.blobs {
+      display: none;
+    }
+
+    img.phones {
+      // display: none;
+      position: relative;
+      max-height: none;
+      max-width: 100%;
+      margin-top: -20rem;
+      right: 0;
+      top: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  section.hero {
+    img.phones {
+      margin-top: -16rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  section.hero {
+    img.phones {
+      margin-top: -13rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section.hero {
+    img.phones {
+      margin-top: -11rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  section.hero {
+    img.phones {
+      margin-top: -2rem;
+    }
   }
 }
