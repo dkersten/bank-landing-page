@@ -74,4 +74,34 @@ nav .inner-container .menu-container ul a:hover:after {
 nav .inner-container .menu-container ul a:hover {
   color: #2d314d;
 }
+
+@media only screen and (max-width: 800px) {
+  nav .inner-container .menu-container ul a {
+    padding: 1rem 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  nav .inner-container .cta-container {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 571px) {
+  .mobile-menu-icon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  nav .inner-container .logo-container {
+    padding: 1rem 0;
+  }
+  nav .inner-container .menu-container {
+    display: none;
+  }
+  nav .inner-container .mobile-menu-icon:hover {
+    cursor: pointer;
+  }
+}
 /*# sourceMappingURL=nav.css.map */
