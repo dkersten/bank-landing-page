@@ -81,4 +81,65 @@ footer .cta-container button {
 footer .cta-container p {
   font-weight: 300;
 }
+
+@media only screen and (max-width: 1099px) and (min-width: 750px) {
+  footer .logo-sm-container {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
+  footer .nav-container {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+  footer .cta-container {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
+}
+
+@media only screen and (max-width: 749px) and (min-width: 660px) {
+  .logo-sm-container,
+  .nav-container,
+  .cta-container {
+    -ms-flex-preferred-size: 33.333%;
+        flex-basis: 33.333%;
+  }
+  .logo-sm-container a {
+    margin-bottom: 0.5rem;
+  }
+  div.nav-container > ul {
+    -webkit-column-count: 1;
+            column-count: 1;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 659px) {
+  footer .inner-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .inner-container .nav-container ul {
+    -webkit-column-count: 1;
+            column-count: 1;
+    text-align: center;
+  }
+  footer .inner-container .cta-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .inner-container > * {
+    margin-bottom: 2rem;
+  }
+  footer .inner-container > *:last-child {
+    margin-bottom: 0;
+  }
+}
 /*# sourceMappingURL=footer.css.map */
