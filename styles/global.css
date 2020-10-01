@@ -204,6 +204,13 @@ nav .inner-container .menu-container ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+nav .inner-container .menu-container ul li {
+  height: 100%;
 }
 
 nav .inner-container .menu-container ul a {
@@ -214,7 +221,7 @@ nav .inner-container .menu-container ul a {
 }
 
 nav .inner-container .menu-container ul a:hover {
-  color: #2d314d;
+  color: #2bb7da;
 }
 
 section.hero {
@@ -354,8 +361,7 @@ section.articles .article-container {
           justify-content: space-between;
 }
 
-section.articles a {
-  text-decoration: none;
+section.articles article {
   -ms-flex-preferred-size: calc(25% - 0.75rem);
       flex-basis: calc(25% - 0.75rem);
   background: #fff;
@@ -363,23 +369,31 @@ section.articles a {
   overflow: hidden;
 }
 
-section.articles a * {
+section.articles article a {
+  text-decoration: none;
+}
+
+section.articles article a:hover h4 {
+  color: #2bb7da;
+}
+
+section.articles article * {
   color: #9698a6;
 }
 
-section.articles a img {
+section.articles article img {
   max-width: 100%;
 }
 
-section.articles a .text-container {
+section.articles article .text-container {
   margin: 1rem;
 }
 
-section.articles a .text-container address {
+section.articles article .text-container address {
   font-size: 0.85rem;
 }
 
-section.articles a .text-container h4 {
+section.articles article .text-container h4 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
   font-weight: 300;
@@ -387,7 +401,7 @@ section.articles a .text-container h4 {
   line-height: 1.5;
 }
 
-section.articles a .text-container p {
+section.articles article .text-container p {
   font-size: 0.9rem;
 }
 
@@ -430,6 +444,14 @@ footer .logo-sm-container a {
 
 footer .logo-sm-container a:last-of-type {
   margin-right: 0;
+}
+
+footer .logo-sm-container svg {
+  fill: #fff;
+}
+
+footer .logo-sm-container svg:hover {
+  fill: #2bb7da;
 }
 
 footer .nav-container {

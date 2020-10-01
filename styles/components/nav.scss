@@ -26,6 +26,11 @@ nav {
 
     .menu-container ul {
       display: flex;
+      align-items: stretch;
+
+      li {
+        height: 100%;
+      }
 
       a {
         padding: 0 0.75rem;
@@ -34,7 +39,7 @@ nav {
         font-family: 'Public Sans', sans-serif;
 
         &:hover {
-          color: $color-dark-blue;
+          color: $color-bright-cyan;
         }
       }
     }

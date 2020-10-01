@@ -39,6 +39,14 @@ footer .logo-sm-container a:last-of-type {
   margin-right: 0;
 }
 
+footer .logo-sm-container svg {
+  fill: #fff;
+}
+
+footer .logo-sm-container svg:hover {
+  fill: #2bb7da;
+}
+
 footer .nav-container {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;

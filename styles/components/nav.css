@@ -33,6 +33,13 @@ nav .inner-container .menu-container ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+nav .inner-container .menu-container ul li {
+  height: 100%;
 }
 
 nav .inner-container .menu-container ul a {
@@ -43,6 +50,6 @@ nav .inner-container .menu-container ul a {
 }
 
 nav .inner-container .menu-container ul a:hover {
-  color: #2d314d;
+  color: #2bb7da;
 }
 /*# sourceMappingURL=nav.css.map */

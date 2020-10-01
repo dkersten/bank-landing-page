@@ -21,12 +21,19 @@ section.articles {
     justify-content: space-between;
   }
 
-  a {
-    text-decoration: none;
+  article {
     flex-basis: calc(25% - 0.75rem);
     background: $color-white;
     border-radius: 5px;
     overflow: hidden;
+
+    a {
+      text-decoration: none;
+
+      &:hover h4 {
+        color: $color-bright-cyan;
+      }
+    }
 
     * {
       color: $color-grayish-blue;
